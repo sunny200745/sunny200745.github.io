@@ -479,9 +479,10 @@ h1.title {
 .download-bar {
   background: #222;
   border: 5px solid #444;
-  padding: 10px;
-  margin: 0 -35px 20px;
-  position: relative;
+  padding: 5px;
+  margin: 0 -16px 22px;
+  position: fixed;
+  width: 85.8%;
 }
 
 .download-bar .inner {
@@ -686,7 +687,7 @@ footer {
 footer .owner {
   background: #222;
   border: 5px solid #444;
-  padding: 5px 15px; 
+  padding: 10px 13px; 
   color: #d6d6d6;
 }
 
