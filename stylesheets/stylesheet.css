@@ -480,9 +480,9 @@ h1.title {
   background: #222;
   border: 5px solid #444;
   padding: 5px;
-  margin: 0 -16px 22px;
-  position: fixed;
-  width: 85.8%;
+  margin: 0 -14px -30px;
+  /* position: fixed; */
+  /* width: 101%; */
 }
 
 .download-bar .inner {
@@ -516,25 +516,25 @@ h1.title {
   height: 0;
   display: block;
   position: absolute;
-  bottom: -15px;
-  left: 0;
+  bottom: -40px;
+  left: -10px;
   transform: rotate(45deg);
-  -ms-transform: rotate(45deg);  /* IE9 */
-  -webkit-transform: rotate(45deg); /* 2014 current */
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 .download-bar .trc {
   border: 10px solid black;
-  border-color:  black transparent transparent;
+  border-color: black transparent transparent;
   width: 0;
   height: 0;
   display: block;
   position: absolute;
-  top: -15px;
-  right: 0;
+  top: 57px;
+  right: -10px;
   transform: rotate(45deg);
-  -ms-transform: rotate(45deg);  /* IE9 */
-  -webkit-transform: rotate(45deg); /* 2014 current */
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 .download-bar .avatar {
