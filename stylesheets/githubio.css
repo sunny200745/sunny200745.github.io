@@ -30,6 +30,7 @@
 	overflow: hidden;
 	opacity: .65;
 	text-align: center;
+	border: 1px solid #ccc;
 }
 .sectionTitle {
   	width: 100%;
