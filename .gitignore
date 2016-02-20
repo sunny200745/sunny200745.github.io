@@ -1,5 +1,10 @@
-node_modules
-.tmp
-.sass-cache
-bower_components
-.DS_Store
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+/app/scripts
+/app/views/
+/app/404.html
+/app/robots.txt
+/test
